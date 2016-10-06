@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.10.1" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0 http://pear.php.net/dtd/tasks-1.0.xsd http://pear.php.net/dtd/package-2.0 http://pear.php.net/dtd/package-2.0.xsd">
+ <name>PDO_DataObject</name>
+ <channel>roojs.github.com/pear-channel</channel>
+ <summary>An SQL Builder, Object Interface to Database Tables</summary>
+ <description>DataObject performs 2 tasks:
+  1. Builds SQL statements based on the objects vars and the builder methods.
+  2. acts as a datastore for a table row.
+  The core class is designed to be extended for each of your tables so that you put the
+  data logic inside the data classes.
+  included is a Generator to make your configuration files and your base classes.</description>
+ <lead>
+  <name>Alan Knowles</name>
+  <user>alan_k</user>
+  <email>alan@roojs.com</email>
+  <active>yes</active>
+ </lead>
+ <date>2016-10-06</date>
+ <time>10:40:58</time>
+ <version>
+  <release>0.0.1</release>
+  <api>2.0.0</api>
+ </version>
+ <stability>
+  <release>beta</release>
+  <api>beta</api>
+ </stability>
+ <license uri="https://www.gnu.org/licenses/lgpl-3.0.en.html">LGPL</license>
+ <notes>
+First initial release
+ </notes>
+ <contents>
+  <dir name="/">
+   <file md5sum="bf6301cb83e30d10a37ad02f551ebe64" name="PDO/DataObject/Generator/Column.php" role="php" />
+   <file md5sum="8fc052110619e228d04a466d47659dd2" name="PDO/DataObject/Generator/Hooks.php" role="php" />
+   <file md5sum="644c165119afccbcc12aab305f0d6417" name="PDO/DataObject/Generator/Table.php" role="php" />
+   <file md5sum="6f28eaeab7f2702e4f0749627a81f4de" name="PDO/DataObject/Introspection/mysql.php" role="php" />
+   <file md5sum="ba03882d226d985e56c7c267abcbd644" name="PDO/DataObject/Introspection/oci.php" role="php" />
+   <file md5sum="f4cecaec5388981b1b0db8b90c13f7e9" name="PDO/DataObject/Introspection/pgsql.php" role="php" />
+   <file md5sum="24293e7e5cdd5fdb28194169687d75e8" name="PDO/DataObject/Introspection/sqlite.php" role="php" />
+   <file md5sum="2e06975ac3241d8b8e0ddceede60349c" name="PDO/DataObject/Cast.php" role="php" />
+   <file md5sum="4924e61bf39c8d654681ffc858c16764" name="PDO/DataObject/createTables.php" role="php" />
+   <file md5sum="ee397015d32aa01825cd359b95bbb203" name="PDO/DataObject/Exception.php" role="php" />
+   <file md5sum="31f26b41a913a1571c00cf74d8203dfa" name="PDO/DataObject/Generator.php" role="php" />
+   <file md5sum="d9582434e6827db4ae3898a7a063f1bb" name="PDO/DataObject/Introspection.php" role="php" />
+   <file md5sum="e52fa02bcba81049c3fa16e53e647329" name="PDO/DataObject/Links.php" role="php" />
+   <file md5sum="0d5d3cb26fffb8698cf1716e372cc79e" name="PDO/DataObject/Validate.php" role="php" />
+   <file md5sum="a5e9eb8324427b154309cb8637ed67d8" name="PDO/DataObject.php" role="php">
+    <tasks:replace from="@version@" to="version" type="package-info" />
+   </file>
+   <file baseinstalldir="DB_DataObject" md5sum="e6a600fd5e1d9cbde2d983680233ad02" name="LICENCE" role="doc" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.0b1</min>
+   </pearinstaller>
+  </required>
+  <optional />
+ </dependencies>
+ <phprelease />
+</package>

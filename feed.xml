@@ -1,12 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://roojs.github.com/pear-channel</id>
-    <updated>2016-10-06T18:28:36+08:00</updated>
+    <updated>2016-10-06T18:42:04+08:00</updated>
     <title>Roojs's PEAR Channel Server Latest Releases</title>
     <link href="http://roojs.github.com/pear-channel/feed.xml" rel="self" />
     <author>
         <name>http://roojs.github.com/pear-channel</name>
     </author>
 
-
+    <entry>
+        <title>PDO_DataObject 0.0.1 (beta)</title>
+        <link href="http://roojs.github.com/pear-channel/get/PDO_DataObject-0.0.1.tgz" />
+        <id>http://roojs.github.com/pear-channel/get/PDO_DataObject-0.0.1.tgz</id>
+        <author>
+            <name>alan_k</name>
+        </author>
+        <updated>2016-10-06T10:40:58+08:00</updated>
+        <content>
+            DataObject performs 2 tasks:
+  1. Builds SQL statements based on the objects vars and the builder methods.
+  2. acts as a datastore for a table row.
+  The core class is designed to be extended for each of your tables so that you put the
+  data logic inside the data classes.
+  included is a Generator to make your configuration files and your base classes.
+            
+First initial release
+ 
+        </content>
+    </entry>
 </feed>

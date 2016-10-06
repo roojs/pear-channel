@@ -1,4 +1,33 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <f xmlns="http://pear.php.net/dtd/rest.categorypackageinfo" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.categorypackageinfo     http://pear.php.net/dtd/rest.categorypackageinfo.xsd">
+    <pi>
+        <p>
+            <n>PDO_DataObject</n>
+            <c>roojs.github.com/pear-channel</c>
+            <ca xlink:href="/rest/c/Default">Default</ca>
+            <l>LGPL</l>
+            <s>An SQL Builder, Object Interface to Database Tables</s>
+            <d>DataObject performs 2 tasks:
+  1. Builds SQL statements based on the objects vars and the builder methods.
+  2. acts as a datastore for a table row.
+  The core class is designed to be extended for each of your tables so that you put the
+  data logic inside the data classes.
+  included is a Generator to make your configuration files and your base classes.</d>
+            <r xlink:href="/rest/r/pdo_dataobject" />
+        </p>
 
+        <a>
+            <r>
+                <v>0.0.1</v>
+                <s>beta</s>
+            </r>
+
+        </a>
+
+        <deps>
+            <v>0.0.1</v>
+            <d>a:2:{s:8:"required";a:2:{s:3:"php";a:1:{s:3:"min";s:3:"5.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:7:"1.4.0b1";}}s:8:"optional";s:0:"";}</d>
+        </deps>
+
+    </pi>
 </f>
