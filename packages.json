@@ -1,6 +1,31 @@
 {
     "pear-roojs\/PDO_DataObject": {
         "versions": {
+            "0.0.3": {
+                "name": "pear-roojs\/PDO_DataObject",
+                "description": "An SQL Builder, Object Interface to Database Tables",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/roojs.github.com\/pear-channel\/get\/PDO_DataObject-0.0.3.tgz"
+                },
+                "version": "0.0.3",
+                "time": "2019-07-12T04:00:28+08:00",
+                "require": {
+                    "php": ">=5.0"
+                },
+                "authors": [
+                    {
+                        "name": "Alan Knowles",
+                        "email": "alan@roojs.com",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": [
+                        "PDO"
+                    ]
+                }
+            },
             "0.0.1": {
                 "name": "pear-roojs\/PDO_DataObject",
                 "description": "An SQL Builder, Object Interface to Database Tables",

@@ -18,12 +18,20 @@
 
         <a>
             <r>
+                <v>0.0.3</v>
+                <s>beta</s>
+            </r>
+            <r>
                 <v>0.0.1</v>
                 <s>beta</s>
             </r>
 
         </a>
 
+        <deps>
+            <v>0.0.3</v>
+            <d>a:2:{s:8:"required";a:2:{s:3:"php";a:1:{s:3:"min";s:3:"5.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:7:"1.4.0b1";}}s:8:"optional";s:0:"";}</d>
+        </deps>
         <deps>
             <v>0.0.1</v>
             <d>a:2:{s:8:"required";a:2:{s:3:"php";a:1:{s:3:"min";s:3:"5.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:7:"1.4.0b1";}}s:8:"optional";s:0:"";}</d>
