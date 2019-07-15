@@ -3,6 +3,10 @@
     <p>PDO_DataObject</p>
     <c>roojs.github.com/pear-channel</c>
     <r>
+        <v>0.0.4</v>
+        <s>beta</s>
+    </r>
+    <r>
         <v>0.0.3</v>
         <s>beta</s>
     </r>
